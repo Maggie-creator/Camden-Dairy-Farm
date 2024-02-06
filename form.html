@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Camden Dairy Farm - Products Form</title>
+</head>
+
+<body>
+    <h2>Products Form</h2>
+    <form>
+        <label for="expiration">Product Expiration Date:</label>
+        <input type="date" id="expiration" name="expiration"><br><br>
+
+        <label for="production">Production Date:</label>
+        <input type="date" id="production" name="production"><br><br>
+
+        <label for="productID">Product Identification Number:</label>
+        <input type="text" id="productID" name="productID"><br><br>
+
+        <label for="cost">Production Cost:</label>
+        <input type="number" id="cost" name="cost"><br><br>
+
+        <label for="price">Selling Price:</label>
+        <input type="number" id="price" name="price"><br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Ordering Form</h2>
+    <form>
+        <label for="propertyNumber">Rental Property Number:</label>
+        <select id="propertyNumber" name="propertyNumber">
+            <option value="property1">Property 1</option>
+            <option value="property2">Property 2</option>
+            <option value="property3">Property 3</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+        <label for="propertyDescription">Rental Property Description:</label>
+        <textarea id="propertyDescription" name="propertyDescription" readonly></textarea><br><br>
+
+        <label for="rentalFee">Rental Fee:</label>
+        <input type="text" id="rentalFee" name="rentalFee" readonly><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Payment Form</h2>
+    <form>
+        <label for="paymentDate">Payment Date:</label>
+        <input type="date" id="paymentDate" name="paymentDate"><br><br>
+
+        <label for="paymentAmount">Payment Amount:</label>
+        <input type="number" id="paymentAmount" name="paymentAmount"><br><br>
+
+        <label for="paymentComments">Comments:</label>
+        <textarea id="paymentComments" name="paymentComments"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
